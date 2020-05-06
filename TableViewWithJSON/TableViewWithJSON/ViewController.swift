@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         downloadJSONData {
             print("successfull")
+            
             self.tableView.reloadData()
         }
         

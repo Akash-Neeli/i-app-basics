@@ -13,6 +13,4 @@ struct HeroStats:Decodable {
     var attack_type:String
     var legs:Int
     var img:String
-    
-    
 }

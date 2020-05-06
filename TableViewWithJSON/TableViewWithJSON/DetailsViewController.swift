@@ -47,8 +47,11 @@ class DetailsViewController: UIViewController {
         nameLabel.text = hero?.localized_name
         AttributeLabel.text = hero?.primary_attr
         Attacklabel.text = hero?.attack_type
-        Legslabel.text = "\((hero?.legs)!)"
+       
       
+    }
+    override func viewDidAppear(_ animated: Bool) {
+         Legslabel.text = "\((hero?.legs)!)"
     }
     
 
